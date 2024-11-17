@@ -139,6 +139,8 @@ h2, h3, p, h1, ul{
 }
 .us-container{
     display: flex;
+    align-items: center;
+    gap: 455px;
 }
 .us-text{
     font-weight: 500;
@@ -153,10 +155,6 @@ h2, h3, p, h1, ul{
     color: #779611;
     font-family: 'Exo 2', sans-serif;
     padding-bottom: 35px;
-}
-.us-wrap{
-    padding-right: 455px;
-    padding-top: 99px;
 }
 .footer{
     padding-top: 60px;
