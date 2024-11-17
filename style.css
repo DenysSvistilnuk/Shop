@@ -149,6 +149,9 @@ h2, h3, p, h1, ul{
     font-family: 'Exo 2', sans-serif;
     padding-bottom: 15px;
 }
+.us-image{
+    margin-right: 145px;
+}
 .us-title{
     font-weight: 600;
     font-size: 48px;
@@ -158,16 +161,24 @@ h2, h3, p, h1, ul{
 }
 .footer{
     padding-top: 60px;
-    padding-bottom: 40px;
+    padding-bottom: 60px;
 }
-.footer-wrap{
+.footer-container{
     display: flex;
-    justify-content: center;
-    gap: 150px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 250px;
 }
-.footer-link{
+.footer-list{
+    line-height: 2;
+}
+.footer-item, .footer-adress, .footer-title, .footer-link{
+    font-weight: 400;
     color: #000;
 }
-.footer-item{
-    padding-bottom: 20px
+.footer-adress{
+    font-style: normal;
+}
+.footer-wrap{
+    line-height: 2;
 }
