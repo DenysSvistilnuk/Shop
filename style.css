@@ -84,20 +84,94 @@ h2, h3, p, h1, ul{
     padding: 100px 0px;
 }
 .flaves-text-description{
-    
+    padding-bottom: 50px;
+}
+.flaves-text{
+    padding-top: 35px;
+    padding-bottom: 15px;
+    font-weight: 400;
+    font-size: 24px;
+    color: #779611;
+    padding-left: 60px;
 }
 .flaves-title {
     font-weight: 600;
     font-size: 36px;
     color: #779611;
-    font-family: "Exo 2" sans-serif;
+    font-family: 'Exo 2', sans-serif;
     padding: 35px 0px;
 }
-.flaves-desk{
-    padding-bottom: 50px;
-}
-
 .flaves-list{
     display: flex;
+    gap: 20px;
+}
+.flaves-cost{
+    padding-left: 60px;
+}
+.sub{
+    padding: 0px 100px;
+    padding-bottom: 80px;
+    border-bottom: 2px solid #779611;
+}
+.sub-list{
+    display: flex;
+    gap: 20px;
+}
+.sub-text-description{
+    padding-bottom: 50px;
+}
+.sub-text{
+    font-weight: 400;
+    font-size: 24px;
+    color: #779611;
+    padding-top: 35px;
+    padding-bottom: 15px;
+    padding-left: 60px;
+}
+.sub-cost{
+    padding-left: 60px;
+}
+.sub-title{
+    font-weight: 600;
+    font-size: 36px;
+    color: #779611;
+    font-family: 'Exo 2', sans-serif;
+    padding: 35px 0px;
+}
+.us{
+    padding: 114px 0px;
+    border-bottom: 2px solid #779611;
+}
+.us-container{
+    display: flex;
+}
+.us-text{
+    font-weight: 500;
+    font-size: 24px;
+    color: #779611;
+    font-family: 'Exo 2', sans-serif;
+    padding-bottom: 15px;
+}
+.us-title{
+    font-weight: 600;
+    font-size: 48px;
+    color: #779611;
+    font-family: 'Exo 2', sans-serif;
+    padding-bottom: 35px;
+}
+.us-wrap{
+    padding-right: 455px;
+    padding-top: 99px;
+}
+.footer{
+    padding: 60px 0px;
+}
+.footer-wrap{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+.footer-link{
+    color: #000;
     gap: 20px;
 }
