@@ -36,9 +36,6 @@ h2, h3, p, h1, ul{
     display: flex;
     gap: 80px;
 }
-.header-image{
-    padding-right: 120px;
-}
 .header-link {
     color: #707070;
     font-weight: 500;
