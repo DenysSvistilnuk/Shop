@@ -86,14 +86,11 @@ h2, h3, p, h1, ul{
     font-family: "Exo 2" sans-serif;
     padding: 35px;
 }
-
-.flaves-desk {
+.flaves-desk{
     padding-bottom: 50px;
 }
 
-.flaves-list {
+.flaves-list{
     display: flex;
     gap: 20px;
 }
-
-.flaves-capsion {}
