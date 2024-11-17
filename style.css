@@ -1,84 +1,99 @@
 body{
-padding: 0px;
-margin: 0px;
-font-size: 20px;
-font-family: "Montserrat", sans-serif;
-background-color: #fefefe;
-list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    background-color: #fefefe;
+    list-style: none;
 }
+
 a{
-text-decoration: none;
+    text-decoration: none;
 }
-h2,h3,p,hi,ul{
-padding: 0px;
-margin: 0px;
+
+h2, h3, p, h1, ul{
+    padding: 0px;
+    margin: 0px;
 }
+
 .container{
-width: 1720p; 
-margin: 0px auto;
+    width: 1720p;
+    margin: 0px auto;
 }
-.header{
+
+.header {
     padding: 41px 0px;
     border-bottom: 2px solid #779611;
 }
-.header-container{
+
+.header-container {
     display: flex;
     align-items: center;
     gap: 120px;
 }
-.header-list{
+
+.header-list {
     display: flex;
     gap: 80px;
 }
-.header-link{
+
+.header-link {
     color: #707070;
     font-weight: 500;
     text-transform: capitalize;
 }
-.hero{
+
+.hero {
     border-bottom: 2px solid #779611;
 }
-.hero-container{
+
+.hero-container {
     display: contents;
     align-items: center;
 }
-.hero-title{
-    font-family:"Exo 2" sans-serif;
-    color:#779661;
+
+.hero-title {
+    font-family: "Exo 2" sans-serif;
+    color: #779661;
     font-size: 48px;
     margin-bottom: 50px;
     font-weight: 600;
     max-width: 65%;
 }
-.hero-text{
+
+.hero-text {
     font-size: 24px;
     font-weight: 400;
     margin-bottom: 50px;
 }
-.hero-link{
+
+.hero-link {
     background-color: #779611;
     color: #f9f9f9;
     font-size: 32px;
     padding: 18px 70px;
     border-radius: 40px;
 }
-.flaves{
+
+.flaves {
     padding: 80px 0px;
 }
-.flaves-title{
+
+.flaves-title {
     font-weight: 600;
     font-size: 36px;
     color: #779611;
-    font-family:"Exo 2" sans-serif;
+    font-family: "Exo 2" sans-serif;
     padding: 35px;
 }
-.flaves-desk{
+
+.flaves-desk {
     padding-bottom: 50px;
 }
-.flaves-list{
+
+.flaves-list {
     display: flex;
     gap: 20px;
 }
-.flaves-capsion{
-    
-}
+
+.flaves-capsion {}
